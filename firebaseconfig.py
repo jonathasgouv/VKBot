@@ -12,7 +12,10 @@ config = {
 
 firebase = Firebase(config)
 db = firebase.database()
-db_child = os.environ.get('db_child') || 'VKBot'
+try:
+    db_child = os.environ.get('db_child')
+except expression as identifier:
+    db_child = 'VKBot'
  
 def getSchedule():
     return db.child(db_child).child("schedule").get()

@@ -17,7 +17,10 @@ trigger = os.environ.get('trigger_1')
 trigger2 = os.environ.get('trigger_2')
 
 access_token = os.environ.get('Token')
-messagetext = os.environ.get('message') || 'did you call me?'
+try:
+    messagetext = os.environ.get('message')
+except:
+    messagetext = 'did you call me?'
 
 
 def replyimg(cmm, topic, user, comment, message):
