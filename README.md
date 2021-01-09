@@ -10,8 +10,8 @@ VKBot is an utility bot that allows you to automate actions related to groups on
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [Requirements](#requirements)
-* [Installing](#installing)
 * [Environment](#environment)
+* [Installing](#installing)
 * [Features](#overview)
 * [Built With](#built-with)
 * [Author](#author)
@@ -23,18 +23,6 @@ These instructions will get you a copy of the project up and running on your loc
 ## Requirements
 * [Python ^3.8](https://www.python.org/downloads/)
 * [Poetry](https://python-poetry.org/docs/)
-
-## Installing
-```bash
-$ git clone https://github.com/jonathasgouv/VKBot.git
-$ cd VKBot/
-$ poetry install
-```
-Now you need to set up your environment first. See how to do it below and after that run the following command.
-```bash
-$ poetry run python main.py
-```
-And that's it, your VKBot is running.
 
 ## Environment
 Rename the `.env.example` file to `.env` and set the environment variables below.
@@ -62,13 +50,21 @@ See the example bellow.
 trigger = '[id604740566|Cartola Bot]'
 trigger2 = '[id604740566|@cartolabot]'
 ```
-
 ### Message
 What ever you put here will be send to the users when your bot is quoted. See the [auto-quote](#auto-quote) functionalty
 
 ### Firebase variables
 The remaining variables are all used to initialize and configure your firebase databse. Depending on your configuration not all variables are needed. 
 
+## Installing
+Run the following commands and you will end up with a local running version of the bot.
+```bash
+$ git clone https://github.com/jonathasgouv/VKBot.git
+$ cd VKBot/
+$ poetry install
+$ poetry run python main.py
+```
+And that's it, your VKBot is running.
 
 ## Features
 ### Auto-quote
