@@ -34,7 +34,7 @@ def replyimg(cmm, topic, user, comment, message):
     # Put the words you want the bot to ignore here
     blacklist = ['piroca', 'penis', 'anal', 'prolapso anal', 'sexo', 'shemale', 'traveco', 'travesti', 'pênis',
                  'melhor do mundo', 'rola', 'tripofobia', 'calcanhar de maracujá', 'calcanhar de maracuja',
-                 'bilola' 'calcanhar maracuja', 'calcanhar', 'calcanar', 'maracuja', 'maracuja', 'bilola', 'pauzao',
+                 'bilola', 'calcanhar maracuja', 'calcanhar', 'calcanar', 'maracuja', 'maracuja', 'bilola', 'pauzao',
                  'cintaralho', 'pau', 'genital', 'fuck', 'selfsuck', 'suck', 'cruzando', 'naked', 'cuceta', 'gangbang',
                  'two girls one cup', '2 girls 1 cup', 'nipple', 'gay', 'xere']
 
